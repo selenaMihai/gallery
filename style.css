@@ -1,0 +1,25 @@
+body { background-image: url("bg.jpg"); 
+}
+
+h2{
+    color: black;
+	font-family: arial;
+	text-align: center;
+	font-size: 50px;
+	font-weight: lighter;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.gallery img {
+  width: 400 px;
+  height: 300px;
+  border: 2px solid white;
+  box-shadow: 4px 7px 7px 0px;
+}
